@@ -10,4 +10,4 @@ while(i <= int(math.sqrt(int(u)))):
             if j in prime:
                 prime.remove(j)
     i = i+1
-print(prime)
+print(*prime)
