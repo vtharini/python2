@@ -9,7 +9,7 @@ for i in range(len(s1)):
             continue
         else:
             c+=1
-if(c==1):
+if(c==1 or c==0):
     print("yes")
 else:
     print("no")
